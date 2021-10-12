@@ -2,4 +2,4 @@ Project Ideas for ESaaS
 
 Covid Vaccine Management System
 Telehealthcare
-Money Management for Millennials
+Managing Finances

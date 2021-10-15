@@ -1,0 +1,16 @@
+IDEA : Columbia Wide Messaging/Planner App (Creative Name - Ideas?)
+
+PAIN POINTS :
+1. Multiple Platforms being used (WhatsApp, Slack, Discord, WeChat, Messenger, Piazza)
+2. Participation cap on groups on platforms like WhatsApp.
+3. Security/Access issues (Enabling random people to be added to the group that spam on groups)
+
+PROPOSED SOLUTION (AND HOW IT HANDLES PAIN POINTS) :
+1. ONE centralized platform being used for all university-wide communication.
+2. No participation cap on groups.
+3. Email check can be used to ALLOW only Columbia affiliates on the platform.
+
+CLEAR DIFFERENTIATION FROM SOLUTIONS ON THE MARKET :
+1. WhatsApp, Discord, Slack, Messenger, WeChat have multiple groups for course related discussions and Piazza for ‘official’ communication but no place to have more ‘informal’ discussions about the course, workload, midterm planning etc.
+2. Participating cap on WhatsApp - 256 which can be easily tackled.
+3. None of the platforms has a check to ALLOW only Columbia affiliates to be added on the platform. 

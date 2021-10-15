@@ -1,4 +1,4 @@
-IDEA : Columbia Wide Messaging/Planner App (Creative Name - Ideas? (How about LionsApp))
+IDEA : Columbia Wide Messaging/Planner App (Creative Name - Ideas? (How about "LionsApp"??))
 
 PAIN POINTS :
 1. Multiple Platforms being used (WhatsApp, Slack, Discord, WeChat, Messenger, Piazza)

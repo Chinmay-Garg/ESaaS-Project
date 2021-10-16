@@ -2,7 +2,7 @@ IDEA :- Columbia Wide Messaging/Planner App
 Name :- Columbia Chat: Not That Other Crap.
 
 Team members:
-  Chinmay garg (cg3286)
+  Chinmay Garg (cg3286)
   Umang Raj (ur1236)
   Harrison Groll (hsg2136)
   Sounak Ray (sr3846)

@@ -1,16 +1,20 @@
-IDEA : Columbia Wide Messaging/Planner App (Creative Name - Ideas? (How about "LionsApp"??))
+IDEA : Columbia Wide Messaging/Planner App (Creative Name - Ideas? (How about "LionsApp"??, CUChat))
 
 PAIN POINTS :
-1. Multiple Platforms being used (WhatsApp, Slack, Discord, WeChat, Messenger, Piazza)
-2. Participation cap on groups on platforms like WhatsApp.
-3. Security/Access issues (Enabling random people to be added to the group that spam on groups)
+1. Multiple Platforms being used concurrently (WhatsApp, Slack, Discord, WeChat, Messenger, Piazza, iMessage, Snapchat). Usually needs invite links to be invited (invite link for whatsapp needs to be generated everytime). Easy to miss messages between so many platforms. Not everyone is on every platform.
+2. Most platforms that are currently used have participation cap on groups. This can easily exclude people (for e.g. there are over 300 fall MSCS admits but Whatsapp groups have a cap of 256).
+3. Security/Access issues (Enabling random people to be added to the group that spam on groups). People outside of Columbia (Scammers) can be added to the groups without any checks to prevent that.
+4. Need to know about groups in advance (need to know someone in the group to be invited). CWM - you can just login and instantly have access to all the relevant social/course groups.
+5. To make a group, have to currently get the contact information of every person and then manually add them. Especially difficult for large gatherings (for e.g. river cruise/cs mixers)
 
 PROPOSED SOLUTION (AND HOW IT HANDLES PAIN POINTS) :
-1. ONE centralized platform being used for all university-wide communication.
-2. No participation cap on groups.
-3. Email check can be used to ALLOW only Columbia affiliates on the platform.
+1. ONE centralized platform used for all university-wide communication. This means you don't have to communicate through 10 different apps which is counterproductive and makes it easy to miss messages. Potentially embded Piazza/Ed into the webapp.
+2. No participation cap on groups. No more "group is already full" messages!
+3. Email check will be used to ALLOW only Columbia affiliates on the platform. No more scammers (and parents)!
+4. Automatically get added to relevant course/social groups (even if don't know a single person in the group). Potential feature of SSOL login that will automatically generate user profile.
+5. Allow groups to be discoverable within a certain radius - all eligible participants within that radius can see the group and join. Also generate a unique QR code for each group. Allow people to scan the QR code to be added to the group without exchanging contact information. Can also be used on flyers so people can join the group from the flyer. (Stretch Goal)
 
 CLEAR DIFFERENTIATION FROM SOLUTIONS ON THE MARKET :
 1. WhatsApp, Discord, Slack, Messenger, WeChat have multiple groups for course related discussions and Piazza for ‘official’ communication but no place to have more ‘informal’ discussions about the course, workload, midterm planning etc.
-2. Participating cap on WhatsApp - 256 which can be easily tackled.
-3. None of the platforms has a check to ALLOW only Columbia affiliates to be added on the platform. 
+2. Participating cap on WhatsApp (256), Messenger (250), WeChat(500) which can be easily tackled.
+3. None of the platforms (except Discord) has a check to ALLOW only Columbia affiliates to be added on the platform. Discord needs admins to create groups. Users cannot create their own public/private groups and need to use another platform/server for that.

@@ -1,6 +1,12 @@
 IDEA : Columbia Wide Messaging/Planner App (Creative Name - Ideas? (How about "LionsApp"??, CUChat))
 Name: Columbia Chat; Not That Other Crap.
 
+Team members:
+  Chinmay garg (cg3286)
+  Umang Raj (ur1236)
+  Harrison Groll (hsg2136)
+  Sounak Ray (sr3846)
+
 PAIN POINTS :
 1. Multiple Platforms being used concurrently (WhatsApp, Slack, Discord, WeChat, Messenger, Piazza, iMessage, Snapchat). Usually needs invite links to be invited (invite link for whatsapp needs to be generated everytime). Easy to miss messages between so many platforms. Not everyone is on every platform.
 2. Most platforms that are currently used have participation cap on groups. This can easily exclude people (for e.g. there are over 300 fall MSCS admits but Whatsapp groups have a cap of 256).

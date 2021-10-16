@@ -1,11 +1,11 @@
-IDEA :- Columbia Wide Messaging/Planner App
-Name :- Columbia Chat: Not That Other Crap.
+IDEA: Columbia Wide Messaging/Planner Application.
+Title: Columbia Chat: Not That Other Crap.
 
 Team members:
-  Chinmay Garg (cg3286)
-  Umang Raj (ur1236)
-  Harrison Groll (hsg2136)
-  Sounak Ray (sr3846)
+  (1) Chinmay Garg (UNI: cg3286)
+  (2) Umang Raj (UNI: ur1236)
+  (3) Harrison Groll (UNI: hsg2136)
+  (4) Sounak Ray (UNI: sr3846)
 
 PAIN POINTS :
 1. Currently, multiple Platforms (WhatsApp, Slack, Discord, WeChat, Messenger, Piazza, iMessage, Snapchat) are being used concurrently for communication by Columbia students. These applications usually needs invite links to be invited or to be added to the various groups. Also for some platforms like WhatsApp, the invite link for a group needs to be generated everytime which makes in cumbersome. It is easy to miss messages between so many platforms and not everyone has an account on every platform.

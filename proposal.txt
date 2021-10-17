@@ -17,36 +17,36 @@ Team members:
 
 PAIN POINTS :
 
-1. Currently, multiple Platforms (WhatsApp, Slack, Discord, WeChat, Messenger, Piazza, iMessage, Snapchat) are being used concurrently for communication by Columbia students. These applications usually needs invite links to be invited or to be added to the various groups. Also for some platforms like WhatsApp, the invite link for a group needs to be generated every time which makes in cumbersome. It is easy to miss messages between so many platforms and not everyone has an account on every platform.
+1. Currently, multiple Platforms (WhatsApp, Slack, Discord, WeChat, Messenger, Piazza, iMessage, Snapchat) are being used concurrently for communication by Columbia students. These applications usually need invite links to be invited or to be added to the various groups. Also, for platforms like WhatsApp, the invite link for groups needs to be generated every time, making it cumbersome. It is easy to miss messages between so many platforms, and not everyone has an account on every platform.
 
-2. Most of the platforms that are currently being used have a participation cap on groups. This currently cannot accommodate the large Columbia fraternity on a single platform and easily exclude people. For example, there are over 300 fall MS in Computer Science admits but WhatsApp groups have a cap of 256.
+2. Most of the platforms that are currently being used have a participation cap on groups. This now cannot accommodate the large Columbia fraternity on a single platform and easily exclude people. For example, there are over 300 fall MS in Computer Science admits, but WhatsApp groups have a cap of 256.
 
-3. The security/access to groups on other platforms cannot be controlled, enabling non-affiliates of Columbia University with the link of the group to be added to the group and then spam on groups. People outside of Columbia (Scammers) can be added to the groups without any checks to prevent that.
+3. The security/access to groups on other platforms cannot be controlled, enabling non-affiliates of Columbia University with the group's link to be added to the group and then spam on groups. People outside of Columbia (Scammers) can be added to the groups without any checks to prevent that.
 
-4. People need to know about groups in advance or they need to know someone in the group to be invited. 
+4. People need to know about groups in advance or know someone in the group to be invited. 
 
-5. To make a group, we have to currently have the contact information of every person and then manually add them. Especially difficult for large courses or social gatherings, e.g. river cruise/computer science mixers/Engineering Software as a Service course.
+5. To make a group, we have to have the contact information of every person currently and then manually add them. This becomes difficult for large courses or social gatherings, e.g., river cruise/computer science mixers/Engineering Software as a Service course.
 
 
 
 PROPOSED SOLUTION (AND HOW IT HANDLES PAIN POINTS) :
 
-1. ONE centralised and unified platform used for all university-wide communication between students. This means you don't have to communicate through 10 different apps which is counterproductive and makes it easy to miss messages. Potentially embed Piazza/Ed Discussion into the web application.
+1. ONE centralized and unified platform used for all university-wide communication between students. This means you don't have to communicate through 10 different apps, which is counterproductive and makes it easy to miss messages. Potentially embed Piazza/Ed Discussion into the web application.
 
 2. No participation cap on groups. There will be no limit to the number of people who can be added to the groups and hence, no more "group is already full" messages!
 
 3. LionMail email checks will be used to ALLOW only Columbia affiliates on the platform. There will be no more scammers looking to sell assignment completion products!
 
-4. In Columbia Chat, people can automatically get added to relevant course/social groups even if they don't know a single person in the group. Affiliates can login and instantly have access to all the relevant social/course groups. Potential feature of SSOL login that will automatically generate user profile.
+4. In Columbia Chat, people can automatically get added to relevant course/social groups even if they don't know a single person in the group. Affiliates can log in and instantly have access to all the relevant social/course groups. Potential feature of SSOL login that will automatically generate a user profile.
 
-5. Allow groups to be discoverable within a certain radius - all eligible participants within that radius can see the group and join. Also generate a unique QR code for each group. Allow people to scan the QR code to be added to the group without exchanging contact information. Can also be used on flyers so people can join the group from the flyer. (Stretch Goal)
+5. Allow groups to be discoverable within a certain radius - all eligible participants within that radius can see the group and join. Also, generate a unique QR code for each group. Allow people to scan the QR code to be added to the group without exchanging contact information. The QR code can also be used on flyers so people can join the group from the flyer. (Stretch Goal)
 
 
 
 CLEAR DIFFERENTIATION FROM SOLUTIONS ON THE MARKET :
 
-1. Existing platforms like WhatsApp, Discord, Slack and WeChat have multiple groups on multiple platforms for course and social gathering related discussions and it is not possible to find existing groups for such discussions on this platform. We have to know someone in the group or create a group and hope that everyone with similar interests and courses joins the groups by finding the invitation link somewhere. In our application people can search for all the groups of their interest on a single platform and add themselves to the group on their own. They do not have to rely on other people to add them to the group or share the invitation link. Also we have Piazza for official communications about a course but no place to have more informal discussions about the course content, course workload, midterm planning, etc.
+1. Existing platforms like WhatsApp, Discord, Slack and WeChat have multiple groups on multiple platforms for a course and social gathering-related discussions. It is not possible to find existing groups for such discussions on this platform. We have to know someone in the group or create a group and hope that everyone with similar interests and courses joins the groups by finding the invitation link somewhere. In our application, people can search for all the groups of their interest on a single platform and add themselves to the group independently. They do not have to rely on other people to add them to the group or share the invitation link. Also, we have Piazza for official communications about a course but no place to have more informal discussions about the course content, course workload, midterm planning, etc.
 
-2. The existing participation cap for various platforms like WhatsApp (256), Messenger (250), WeChat(500) will be removed from our application thus making it accessible to everyone in the Columbia fraternity.
+2. The existing participation cap for various platforms like WhatsApp (256), Messenger (250), WeChat(500) will be removed from our application, thus making it accessible to everyone in the Columbia fraternity.
 
-3. None of the existing platforms (except Discord) has a check to ALLOW only Columbia affiliates to be added on the platform. Discord needs server administrators to create groups. Users cannot create their own public/private groups and need to use another platform/server for that. 
+3. None of the existing platforms (except Discord) has a check to ALLOW only Columbia affiliates to be added on the platform. Discord needs server administrators to create groups. Users cannot make their own public/private groups and need to use another platform/server. 

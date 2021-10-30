@@ -11,12 +11,8 @@ If you face permission issues during yarn installation
 run :
 sudo chown -R $USER:$GROUP ~/.config
 
-5. You should be able to send messages using users:
-
-username: umraj
-email: ur2136@columbia.edu
-password: test
-
-username: raone
-email: raman@columbia.edu
-password: test
+5. You should be able to send messages using users.
+6. To create users:
+run:
+rails console
+User.create(username:'username', email:'email', password:'password')

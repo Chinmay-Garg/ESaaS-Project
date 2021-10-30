@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. CLONE REPO
+2. run rails db:migrate
+3. run rails s
+4. If you get issues related to webpack not finding application
+run :
+npm install --global yarn
+rails webpacker:install
 
-Things you may want to cover:
+If you face permission issues during yarn installation
+run :
+sudo chown -R $USER:$GROUP ~/.config
+5. You should be able to send messages using users:
+username: umraj
+email: ur2136@columbia.edu
+password: test
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+username: raone
+email: raman@columbia.edu
+password: test

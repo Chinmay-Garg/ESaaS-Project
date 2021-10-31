@@ -12,10 +12,30 @@ class UsersController < ApplicationController
   
       render "rooms/index"
     end
+
+    def create
+      #byebug
+      @user = User.new(user_params)
+      if @user.save
+        redirect_to ""
+        # Handle a successful save.
+        puts("all done")
+      else
+       
+        puts("error")
+      end
+    end
+
+    def user_params
+      params.require(:user).permit(:email, :password, :username)
+    end
   
     private
     def get_name(user1, user2)
       users = [user1, user2].sort
       "private_#{users[0].id}_#{users[1].id}"
     end
+
+    
+
   end

@@ -167,6 +167,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.2)
     stimulus-rails (0.7.1)
       rails (>= 6.0.0)
     thor (1.1.0)
@@ -215,6 +216,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   sassc (~> 2.1.0)
   selenium-webdriver
+  sqlite3 (~> 1.4)
   stimulus-rails (~> 0.7.1)
   turbo-rails (~> 7.1)
   turbolinks (~> 5)

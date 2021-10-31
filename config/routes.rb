@@ -4,12 +4,16 @@ Rails.application.routes.draw do
   resources :rooms
   resources :users
   root 'rooms#index'
+  
   resources :rooms do
     resources :messages
   end
   
 
   get '/signin', to: 'sessions#new'
+  get '/signup', to: 'sessions#signup'
   post '/signin', to: 'sessions#create'
   delete '/signout', to: 'sessions#destroy'
+
+  
 end

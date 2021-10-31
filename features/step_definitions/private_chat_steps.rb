@@ -1,8 +1,9 @@
-Given(/^the following users exist:$/) do
+Given(/^the following users exist:$/) do |table|
+  # table is a table.hashes.keys # => [:username, :email, :password]
   pending
 end
 
-And(/^I am on the RottenPotatoes home page$/) do
+And(/^I am on the ColumbiaChat home page$/) do
   pending
 end
 

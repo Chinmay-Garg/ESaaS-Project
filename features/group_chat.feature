@@ -7,11 +7,11 @@ Feature: sending message on a private chat
   Background: rooms have been created on database
 
     Given the following rooms exist:
-      | name                      | is_private
-      | Food Lovers               | false
-      | music                     | false
-      | ice skating               | false
-      | halloween party           | false
+      | name                      | is_private |
+      | Food Lovers               | false      |
+      | music                     | false      |
+      | ice skating               | false      |
+      | halloween party           | false      |
 
     And I am on the ColumbiaChat home page
     Then I should have options to send messages to "halloween party", "music", "ice skating", "Food lovers"

@@ -19,10 +19,10 @@ class UsersController < ApplicationController
       if @user.save
         
         # Handle a successful save.
-        puts("all done")
+        1 + 1
       else
        
-        puts("error")
+        1 + 1
       end
     end
 

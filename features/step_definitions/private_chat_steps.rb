@@ -1,17 +1,23 @@
 Given(/^the following users exist:$/) do |table|
   # table is a table.hashes.keys # => [:username, :email, :password]
-  pending
+  table.hashes.each do |user|
+    User.create(username:user[:title], email:user[:email], password:user[:password])
+  end
 end
 
-And(/^I am on the ColumbiaChat home page$/) do
-  pending
+When /^(?:|I )am on (.+)$/ do |page_name|
+  visit path_to(page_name)
 end
 
-And(/^I am logged in as "([^"]*)"$/) do |arg|
-  pending
+And /^(?:|I )fill in "([^"]*)" with "([^"]*)"$/ do |field, value|
+  fill_in(field, :with => value)
 end
 
-Then(/^I should have options to send messages to "([^"]*)", "([^"]*)" and "([^"]*)"$/) do |arg1, arg2, arg3|
+And /^(?:|I )press "([^"]*)"$/ do |button|
+  click_button(button)
+end
+
+Then(/^I "([^"]*)" should see options to send messages to "([^"]*)", "([^"]*)" and "([^"]*)"$/) do |arg1, arg2, arg3, arg4|
   pending
 end
 

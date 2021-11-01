@@ -13,9 +13,11 @@ Feature: sending message on a private chat
       | Harrison_Groll            | hsg2136@columbia.edu     | Lol@321      |
       | Sounak_Ray                | sr3846@columbia.edu      | Password@321 |
 
-    And I am on the ColumbiaChat home page
-    And I am logged in as "Umang_Raj"
-    Then I should have options to send messages to "Sounak_Ray", "Chinmay_Garg" and "Harrison_Groll"
+  Scenario: having the option to send private chat to everyone apart from self
+    When I am on the ColumbiaChat signin page
+    And I fill in "username" with "Umang_Raj"
+    And I press "Sign in"
+    Then I "Umang_Raj" should see options to send messages to "Sounak_Ray", "Chinmay_Garg" and "Harrison_Groll"
 
   Scenario Outline: send a private chat to a single person
     When I send a message "<arg1>" to "<arg2>"

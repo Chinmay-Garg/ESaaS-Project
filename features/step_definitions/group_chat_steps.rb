@@ -3,10 +3,6 @@ Given(/^the following rooms exist:$/) do |table|
   pending
 end
 
-And(/^I am on the ColumbiaChat home page$/) do
-  pending
-end
-
 And(/^I am logged in as "([^"]*)"$/) do |arg|
   pending
 end

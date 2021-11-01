@@ -17,11 +17,11 @@ class UsersController < ApplicationController
       #byebug
       @user = User.new(user_params)
       if @user.save
-        redirect_to ""
+        redirect_to :root 
         # Handle a successful save.
         puts("all done")
       else
-       
+        redirect_to :root 
         puts("error")
       end
     end

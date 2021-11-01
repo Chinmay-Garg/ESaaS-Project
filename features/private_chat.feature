@@ -13,19 +13,22 @@ Feature: sending message on a private chat
       | Harrison_Groll            | hsg2136@columbia.edu     | Lol@321      |
       | Sounak_Ray                | sr3846@columbia.edu      | Password@321 |
 
-  Scenario: having the option to send private chat to everyone apart from self
+  Scenario: having the option to send private chat to everyone apart from self after logging in
     When I am on the ColumbiaChat signin page
     And I fill in "username" with "Umang_Raj"
     And I press "Sign in"
-    Then I "Umang_Raj" should see options to send messages to "Sounak_Ray", "Chinmay_Garg" and "Harrison_Groll"
+    Then I should see "Hi Umang_Raj"
+    And "Umang_Raj" should see options to send messages to "Sounak_Ray", "Chinmay_Garg" and "Harrison_Groll"
+
 
   Scenario Outline: send a private chat to a single person
-    When I send a message "<arg1>" to "<arg2>"
-    Then I should see the message "<arg1>" on the chat with "<arg2>"
-    And I should not see the message "<arg1>" on the chat with "<arg21>"
-    And I should not see the message "<arg1>" on the chat with "<arg22>"
+    Given I am logged in as "<arg1>"
+    When "<arg1>" send a message "<arg2>" to "<arg3>"
+    Then "<arg1>" should see the message "<arg2>" on the chat with "<arg3>"
+    And "<arg1>" should not see the message "<arg2>" on the chat with "<arg31>"
+    And "<arg1>" should not see the message "<arg2>" on the chat with "<arg32>"
     Examples:
-      | arg1                     | arg2             | arg21        | arg22          |
-      | Happy Birthday Sounak!   | Sounak_Ray       | Chinmay_Garg | Harrison_Groll |
-      | Happy Birthday Chinmay!  | Chinmay_Garg     | Sounak_Ray   | Harrison_Groll |
-      | Happy Birthday Harrison! | Harrison_Groll   | Chinmay_Garg | Sounak_Ray     |
+      | arg1        | arg2                     | arg3             | arg31        | arg32          |
+      | Umang_Raj   | Happy Birthday Sounak!   | Sounak_Ray       | Chinmay_Garg | Harrison_Groll |
+      | Umang_Raj   | Happy Birthday Chinmay!  | Chinmay_Garg     | Sounak_Ray   | Harrison_Groll |
+      | Umang_Raj   | Happy Birthday Harrison! | Harrison_Groll   | Chinmay_Garg | Sounak_Ray     |

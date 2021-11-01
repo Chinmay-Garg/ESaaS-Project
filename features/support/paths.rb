@@ -13,7 +13,7 @@ module NavigationHelpers
   def path_to(page_name)
     case page_name
 
-    when /^the (ColumbiaChat )?signin\s?page$/ then '/'
+    when /^the (ColumbiaChat )?signin\s?page$/ then '/signin'
 
     else
       begin

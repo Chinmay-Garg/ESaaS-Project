@@ -3,10 +3,6 @@ Given(/^the following rooms exist:$/) do |table|
   pending
 end
 
-And(/^I am logged in as "([^"]*)"$/) do |arg|
-  pending
-end
-
 Then(/^I should have options to send messages to "([^"]*)", "([^"]*)", "([^"]*)", "([^"]*)"$/) do |arg1, arg2, arg3, arg4|
   pending
 end

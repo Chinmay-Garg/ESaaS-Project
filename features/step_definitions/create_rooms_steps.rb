@@ -7,10 +7,6 @@ Then(/^I should have options to send messages to "([^"]*)", "([^"]*)", "([^"]*)"
   pending
 end
 
-When(/^I am logged in as "([^"]*)"$/) do |arg|
-  pending
-end
-
 And(/^I create a new room for "([^"]*)"$/) do |arg|
   pending
 end

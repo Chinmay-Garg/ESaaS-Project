@@ -16,14 +16,7 @@ class UsersController < ApplicationController
     def create
       #byebug
       @user = User.new(user_params)
-      if @user.save 
-        
-        puts("OK")
-      else
-      
-        puts("OK")
-      end
-
+      @user.save
     
     end
 

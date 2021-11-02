@@ -24,7 +24,7 @@ class UsersController < ApplicationController
         puts("OK")
       end
 
-      return redirect_to "http://esaas-chat.herokuapp.com/"
+    
     end
 
     def user_params

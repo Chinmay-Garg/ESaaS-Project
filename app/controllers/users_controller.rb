@@ -17,6 +17,7 @@ class UsersController < ApplicationController
       #byebug
       @user = User.new(user_params)
       @user.save
+      redirect_to '/signin'
     
     end
 

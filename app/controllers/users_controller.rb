@@ -16,14 +16,14 @@ class UsersController < ApplicationController
     def create
       #byebug
       @user = User.new(user_params)
-      if @user.save
+      if @user.save 
         
-        # Handle a successful save.
-        1 + 1
+        puts("OK")
       else
-       
-        1 + 1
+      
+        puts("OK")
       end
+      redirect_to controller: "rooms", action: "index" 
     end
 
     def user_params

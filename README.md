@@ -5,8 +5,8 @@
 3. run rails s
 4. If you get issues related to webpack not finding application
 run :
-npm install --global yarn
-rails webpacker:install
+''npm install --global yarn
+rails webpacker:install''
 If you face permission issues during yarn installation
 run :
 sudo chown -R $USER:$GROUP ~/.config

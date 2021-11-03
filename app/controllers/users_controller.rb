@@ -16,9 +16,14 @@ class UsersController < ApplicationController
     def create
       #byebug
       @user = User.new(user_params)
-      @user.save
-      redirect_to '/signin'
-    
+      if @user.save
+        redirect_to ""
+        # Handle a successful save.
+        puts("all done")
+      else
+       
+        puts("error")
+      end
     end
 
     def user_params
